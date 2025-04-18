@@ -1,11 +1,12 @@
 {
   "name": "adonis_zeabur",
   "version": "0.0.0",
-  "private": true,
+  "private": false,
+  "main":"bin/server.js",
   "type": "module",
   "license": "UNLICENSED",
   "scripts": {
-    "start": "node /usr/share/caddy/bin/server.js",
+    "start": "node bin/server.js",
     "build": "cd build && pnpm i --prod",
     "dev": "node ace serve --hmr",
     "test": "node ace test",
