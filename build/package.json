@@ -1,8 +1,9 @@
 {
   "name": "adonis_zeabur",
   "version": "0.0.0",
-  "private": true,
+  "private": false,
   "type": "module",
+  "main":"node bin/server.js",
   "license": "UNLICENSED",
   "scripts": {
     "start": "node bin/server.js",
