@@ -6,7 +6,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "start": "node bin/server.js",
-    "build": "node ace build  && mv resources/css build/resources/css && cd build && pnpm i --prod",
+    "build": "node ace build  && cd build && pnpm i --prod",
     "dev": "node ace serve --hmr",
     "test": "node ace test",
     "lint": "eslint .",

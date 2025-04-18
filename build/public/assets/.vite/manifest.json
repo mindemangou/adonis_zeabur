@@ -1,7 +1,8 @@
 {
-  "resources/css/app.css": {
-    "file": "app-V1pZY7xQ.css",
-    "src": "resources/css/app.css",
+  "resources/js/app.js": {
+    "file": "app-BK-XoIC9.js",
+    "name": "app",
+    "src": "resources/js/app.js",
     "isEntry": true
   }
 }
